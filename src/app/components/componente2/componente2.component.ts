@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-componente2',
@@ -6,7 +6,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Componente2Component implements OnInit {
 
+  @Input() base:number = NaN;
+  @Input() altura:number = NaN;
+  @Output() resultado:number = 0;
+
   constructor() { }
+
+  public area():void
+	{
+		this.resultado = (this.base*this.altura)/2;
+	}
 
   ngOnInit(): void {
   }

@@ -1,4 +1,30 @@
-<div class="container w-70">
-  <h1 class="bg-success">COMPONENTE 3!</h1>
-</div>
+<div class="container rounded bg-danger p-2 m-1">
+  <div class="container w-70">
+    <h1 class="bg-info">PERIMETRO DE RECTANGULO:</h1>
+  </div>
 
+  <div class="input-group input-group-sm mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-sm">Lado 1: </span>
+    </div>
+    <input type="number" name="base"  [(ngModel)]="lado1" class="form-control" aria-label="Small" placeholder="Ingrese primer lado" aria-describedby="inputGroup-sizing-sm">
+  </div>
+  <div class="input-group input-group-sm mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-sm">Lado 2: </span>
+    </div>
+    <input type="number" name="altura" [(ngModel)]="lado2" class="form-control" aria-label="Small" placeholder="Ingrese segundo lado" aria-describedby="inputGroup-sizing-sm">
+  </div>
+  <div class="container mb-3" >
+
+    <button class="btn btn-secondary m-1" (click)="perimetro()" >Calcular Perimetro</button>
+  </div>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-sm">Area: </span>
+    </div>
+    <h3 type="text" class="form-control btn-warning" aria-label="Small">{{this.resultado}}</h3>
+    <!--<button class="btn btn-danger mb-2" (click)="limpiaResultado()" >Limpiar</button> -->
+  </div>
+  </div>

@@ -6,11 +6,16 @@ import { AppComponent } from './app.component';
 import { ComponentesModule } from './components/components.module';
 
 import {HttpClientModule} from '@angular/common/http';
+import { CalculadoraService } from './components/componente1/services/calculadora.service';
+import { Componente1Component } from './components/componente1/componente1.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    
+
+
 
   ],
   imports: [
