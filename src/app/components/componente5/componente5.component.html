@@ -1,4 +1,25 @@
-<div class="container w-70">
-  <h1 class="bg-secondary">COMPONENTE 5!</h1>
-</div>
+<div class="container rounded bg-light p-2 m-1">
+  <div class="container w-100">
+    <h1 class="bg-light">HOSPITAL:</h1>
+  </div>
 
+  <div class="input-group input-group-sm mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-sm">Presupuesto: </span>
+    </div>
+    <input type="number" name="presupuesto"  [(ngModel)]="presupuesto" class="form-control text-center" aria-label="Small" placeholder="Ingrese el presupuesto del Hospital" aria-describedby="inputGroup-sizing-sm">
+  </div>
+
+  <div class="container mb-3 text-center" >
+
+    <button class="btn btn-secondary m-1 " (click)="calcularPresupuesto()" >Calcular Presupuestos</button>
+  </div>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroup-sizing-sm">Reparto: </span>
+    </div>
+    <h3 >{{this.resultado}}</h3>
+    <!--<button class="btn btn-danger mb-2" (click)="limpiaResultado()" >Limpiar</button> -->
+  </div>
+  </div>
