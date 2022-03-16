@@ -1,5 +1,9 @@
 # Rutas + ejercicios
-![image](https://user-images.githubusercontent.com/100344855/158649308-7e0199e7-f1e4-48d6-8a1f-6595d59c4db8.png)
+![image](https://user-images.githubusercontent.com/100344855/158649617-4ca5490c-78aa-42db-8997-bb8ca909a182.png)
+
+![image](https://user-images.githubusercontent.com/100344855/158649800-7bae7a6c-ebe6-4137-a0f1-c5e3b7b8f4ea.png)
+
+![image](https://user-images.githubusercontent.com/100344855/158649873-a46c32a0-04a4-4e9b-80cb-4ffc53244bab.png)
 
 ![image](https://user-images.githubusercontent.com/100344855/158484519-fd818f56-21bf-4341-93ca-f6c68c2ef865.png)
 
